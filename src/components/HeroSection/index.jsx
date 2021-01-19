@@ -1,23 +1,43 @@
 import React from "react";
 import {
   HeroContainer,
-  HeroBg,
-  VideoBg,
+  HeaderRow,
   HeroContent,
-  HeroH1,
+  HeroHeader,
   HeroP,
+  SocialLink,
+  IconRow,
 } from "./HeroElements";
-import Video from "../../assets/video.mp4";
+
+import { VscGithub } from "react-icons/vsc";
+import { MdEmail } from "react-icons/md";
+import { FaLinkedin } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
     <HeroContainer id="home">
-      <HeroBg>
-        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
-      </HeroBg>
       <HeroContent>
-        <HeroH1>Welcome To My Portfolio</HeroH1>
-        <HeroP>Scroll downward to learn more about me.</HeroP>
+        <HeaderRow>
+          <HeroHeader>J O H N</HeroHeader>
+          <HeroHeader>H E N R Y </HeroHeader>
+        </HeaderRow>
+        <HeroHeader>R U D D E N</HeroHeader>
+        <HeroP>
+          {
+            "College student learning software development and doing personal projects along the way"
+          }
+        </HeroP>
+        <IconRow>
+          <SocialLink href="https://github.com/jhrudden">
+            <VscGithub />
+          </SocialLink>
+          <SocialLink href="https://www.linkedin.com/in/johnhenryrudden/">
+            <FaLinkedin />
+          </SocialLink>
+          <SocialLink href="mailto:johnhenryrudden@gmail.com">
+            <MdEmail />
+          </SocialLink>
+        </IconRow>
       </HeroContent>
     </HeroContainer>
   );

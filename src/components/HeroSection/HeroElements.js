@@ -6,26 +6,11 @@ export const HeroContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 800px;
+  height: 100vh;
   position: relative;
   z-index: 1;
 
   /* Things to come */
-  :before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.1) 0%,
-        rgba(0, 0, 0, 0.3) 100%
-      ),
-      linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, transparent 100%);
-    z-index: 2;
-  }
 `;
 
 export const HeroBg = styled.div`
@@ -54,41 +39,63 @@ export const HeroContent = styled.div`
   padding: 8px 24px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 `;
 
-export const HeroH1 = styled.h1`
+export const HeaderRow = styled.div`
+  grid-template-rows: repeat(2, 1fr);
+  display: flex;
+  flex-direction: row;
+  grid-gap: 32px;
+`;
+
+export const HeroHeader = styled.div`
   color: #fff;
-  font-size: 48px;
+  font-size: 40px;
   text-align: center;
   transition: 1s ease-in-out;
 
   @media screen and (max-width: 768px) {
-    transition: 1s ease-in-out;
-    font-size: 40px;
-  }
-
-  @media screen and (max-width: 480px) {
     transition: 1s ease-in-out;
     font-size: 32px;
   }
 `;
 
 export const HeroP = styled.p`
-  margin-top: 24px;
+  margin-top: 12px;
   color: #fff;
-  font-size: 24px;
-  text-align: center;
+  font-size: 30px;
+  text-align: start;
   max-width: 600px;
   transition: 1s ease-in-out;
 
   @media screen and (max-width: 768px) {
-    font-size: 24px;
     transition: 1s ease-in-out;
+    font-size: 24px;
+    max-width: 400px;
   }
+`;
+
+export const SocialLink = styled.a`
+  color: #000;
+  cursor: pointer;
+  font-size: 20px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const IconRow = styled.div`
+  margin-top: -10px;
+  display: flex;
+  flex-direction: row;
+  grid-gap: 16px;
 
   @media screen and (max-width: 480px) {
-    font-size: 18px;
-    transition: 1s ease-in-out;
+    grid-gap: 12px;
   }
 `;
