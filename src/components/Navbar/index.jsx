@@ -34,13 +34,16 @@ const Navbar = ({ toggle }) => {
     <>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo onClick={toggleHome}>John Henry</NavLogo>
-          <MobileIcon onClick={toggle}>
+          <NavLogo onClick={toggleHome} scrollNav={scrollNav}>
+            John Henry
+          </NavLogo>
+          <MobileIcon onClick={toggle} scrollNav={scrollNav}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
             <NavItem>
               <NavLinks
+                scrollNav={scrollNav}
                 to="projects"
                 smooth={true}
                 duration={500}

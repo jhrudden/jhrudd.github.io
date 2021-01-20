@@ -10,7 +10,21 @@ export const HeroContainer = styled.div`
   position: relative;
   z-index: 1;
 
-  /* Things to come */
+  :before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.1) 0%,
+        rgba(0, 0, 0, 0.3) 100%
+      ),
+      linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, transparent 100%);
+    z-index: 2;
+  }
 `;
 
 export const HeroBg = styled.div`
@@ -24,7 +38,7 @@ export const HeroBg = styled.div`
   overflow: hidden;
 `;
 
-export const VideoBg = styled.video`
+export const ImgBg = styled.img`
   width: 100%;
   height: 100%;
   -o-object-fit: cover;

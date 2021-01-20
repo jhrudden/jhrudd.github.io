@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-scroll";
 
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) => (scrollNav ? "#f4d140" : "transparent")};
+  background: ${({ scrollNav }) => (scrollNav ? "#fff" : "transparent")};
   transition: all 0.3s ease-in-out;
   height: 80px;
   margin-top: -80px;
@@ -30,7 +30,8 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled.div`
-  color: #fff;
+  color: ${({ scrollNav }) => (scrollNav ? "#000" : "#fff")};
+  transition: all 0.2s ease-in-out;
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
@@ -45,6 +46,8 @@ export const MobileIcon = styled.div`
   display: none;
 
   @media screen and (max-width: 768px) {
+    color: ${({ scrollNav }) => (scrollNav ? "#000" : "#fff")};
+
     display: block;
     position: absolute;
     bottom: 25%;
@@ -52,7 +55,6 @@ export const MobileIcon = styled.div`
     transition: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: #fff;
   }
 `;
 
@@ -72,7 +74,8 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(Link)`
-  color: #fff;
+  color: ${({ scrollNav }) => (scrollNav ? "#000" : "#fff")};
+  transition: all 0.2s ease-in-out;
   display: flex;
   align-items: center;
   text-decoration: none;

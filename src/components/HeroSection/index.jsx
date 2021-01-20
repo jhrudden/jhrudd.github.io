@@ -7,15 +7,21 @@ import {
   HeroP,
   SocialLink,
   IconRow,
+  HeroBg,
+  ImgBg,
 } from "./HeroElements";
 
 import { VscGithub } from "react-icons/vsc";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
+import Background from "../../assets/images/background.jpg";
 
 const HeroSection = () => {
   return (
     <HeroContainer id="home">
+      <HeroBg>
+        <ImgBg src={Background} />
+      </HeroBg>
       <HeroContent>
         <HeaderRow>
           <HeroHeader>J O H N</HeroHeader>
