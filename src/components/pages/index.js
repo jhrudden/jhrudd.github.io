@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import HeroSection from "../HeroSection";
 import Navbar from "../Navbar";
-import Services from "../Services";
+import Project from "../ProjectSection";
 import Sidebar from "../Sidebar";
 
 function Home() {
@@ -18,7 +18,7 @@ function Home() {
       <Navbar toggle={toggle} />
       <HeroSection />
 
-      <Services />
+      <Project />
     </>
   );
 }
