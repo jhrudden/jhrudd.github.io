@@ -11,11 +11,15 @@ import {
   CardP,
   GridPadding,
   TopWrapper,
+  CalloutWrapper,
+  CalloutTextWrapper,
+  CalloutText,
 } from "./ProjectElements";
+import { VscGithub } from "react-icons/vsc";
 
 const Project = () => {
   return (
-    <ProjectContainer>
+    <ProjectContainer id="projects">
       <TopWrapper>
         <TextWrapper>
           <ProjectH1>My Projects</ProjectH1>
@@ -48,6 +52,12 @@ const Project = () => {
           </ProjectCard>
         </CardWrapper>
       </GridPadding>
+      <CalloutWrapper href="https://github.com/jhrudden">
+        <CalloutTextWrapper>
+          <VscGithub />
+          <CalloutText>Check out my Github</CalloutText>
+        </CalloutTextWrapper>
+      </CalloutWrapper>
     </ProjectContainer>
   );
 };

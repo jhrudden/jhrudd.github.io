@@ -9,7 +9,7 @@ export const ProjectContainer = styled.div`
 `;
 
 export const TopWrapper = styled.div`
-  height: 500px;
+  height: 450px;
   width: 100%;
   display: block;
   background-color: #003644;
@@ -75,7 +75,7 @@ export const CardWrapper = styled.div`
   box-sizing: border-box;
   align-items: center;
   justify-items: center;
-  margin-top: -15rem;
+  margin-top: -14rem;
   grid-gap: 1rem;
   padding: 16px;
 
@@ -94,7 +94,7 @@ export const ProjectCard = styled.div`
   padding: 0.75rem;
   background-color: #fff;
   border-radius: 12px;
-  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+  box-shadow: 0 10px 10px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
 `;
 
 export const ProjectContentWrapper = styled.div`
@@ -115,4 +115,40 @@ export const CardP = styled.h1`
   text-align: center;
   font-weight: 300;
   margin-bottom: 2rem;
+`;
+
+export const CalloutWrapper = styled.a`
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  height: 60px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #003644;
+  background-color: #fff;
+  border-radius: 50px;
+  border: 2px solid #003644;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #003644;
+    color: #fff;
+  }
+`;
+
+export const CalloutTextWrapper = styled.div`
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin: 0 1.5rem;
+  justify-content: space-around;
+  font-size: 1.25rem;
+`;
+
+export const CalloutText = styled.h1`
+  font-size: inherit;
+  font-weight: 600;
+  color: inherit;
 `;
