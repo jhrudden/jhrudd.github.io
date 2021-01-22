@@ -5,17 +5,15 @@ import {
   ProjectH1,
   ProjectP,
   CardWrapper,
-  ProjectCard,
-  ProjectContentWrapper,
-  CardH1,
-  CardP,
   GridPadding,
   TopWrapper,
   CalloutWrapper,
   CalloutTextWrapper,
   CalloutText,
 } from "./ProjectElements";
+import { ProjectCardOne } from "./ProjectCard/Data";
 import { VscGithub } from "react-icons/vsc";
+import ProjectCard from "./ProjectCard";
 
 const Project = () => {
   return (
@@ -32,24 +30,9 @@ const Project = () => {
       </TopWrapper>
       <GridPadding>
         <CardWrapper>
-          <ProjectCard>
-            <ProjectContentWrapper>
-              <CardH1>Hello Word</CardH1>
-              <CardP>Project made to say hello to the world</CardP>
-            </ProjectContentWrapper>
-          </ProjectCard>
-          <ProjectCard>
-            <ProjectContentWrapper>
-              <CardH1>Hello Word</CardH1>
-              <CardP>Project made to say hello to the world</CardP>
-            </ProjectContentWrapper>
-          </ProjectCard>
-          <ProjectCard>
-            <ProjectContentWrapper>
-              <CardH1>Hello Word</CardH1>
-              <CardP>Project made to say hello to the world</CardP>
-            </ProjectContentWrapper>
-          </ProjectCard>
+          <ProjectCard {...ProjectCardOne} />
+          <ProjectCard {...ProjectCardOne} />
+          <ProjectCard {...ProjectCardOne} />
         </CardWrapper>
       </GridPadding>
       <CalloutWrapper href="https://github.com/jhrudden">

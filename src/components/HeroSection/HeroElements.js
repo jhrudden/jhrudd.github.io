@@ -55,18 +55,13 @@ export const HeroContent = styled.div`
   align-items: flex-start;
 `;
 
-export const HeaderRow = styled.div`
-  grid-template-rows: repeat(2, 1fr);
-  display: flex;
-  flex-direction: row;
-  grid-gap: 32px;
-`;
-
 export const HeroHeader = styled.div`
   color: #fff;
-  font-size: 40px;
-  text-align: center;
+  font-size: 3rem;
+  text-align: start;
   transition: 1s ease-in-out;
+  font-weight: bold;
+  margin-bottom: -0.75rem;
 
   @media screen and (max-width: 768px) {
     transition: 1s ease-in-out;
@@ -100,6 +95,11 @@ export const SocialLink = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  &:hover {
+    color: #fff;
+    background: #000;
+  }
 `;
 
 export const IconRow = styled.div`

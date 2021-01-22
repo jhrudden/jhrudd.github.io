@@ -1,7 +1,6 @@
 import React from "react";
 import {
   HeroContainer,
-  HeaderRow,
   HeroContent,
   HeroHeader,
   HeroP,
@@ -23,11 +22,7 @@ const HeroSection = () => {
         <ImgBg src={Background} />
       </HeroBg>
       <HeroContent>
-        <HeaderRow>
-          <HeroHeader>J O H N</HeroHeader>
-          <HeroHeader>H E N R Y </HeroHeader>
-        </HeaderRow>
-        <HeroHeader>R U D D E N</HeroHeader>
+        <HeroHeader>John Henry Rudden</HeroHeader>
         <HeroP>
           {
             "College student learning software development and doing personal projects along the way"

@@ -87,36 +87,6 @@ export const CardWrapper = styled.div`
   }
 `;
 
-export const ProjectCard = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.75rem;
-  background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 10px 10px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
-`;
-
-export const ProjectContentWrapper = styled.div`
-  padding: 60px 40px;
-`;
-
-export const CardH1 = styled.h1`
-  max-width: 100%;
-  font-size: 1.5rem;
-  color: #000;
-  text-align: center;
-  font-weight: 800;
-`;
-
-export const CardP = styled.h1`
-  font-size: 1rem;
-  color: #000;
-  text-align: center;
-  font-weight: 300;
-  margin-bottom: 2rem;
-`;
-
 export const CalloutWrapper = styled.a`
   margin-top: 2rem;
   margin-bottom: 4rem;
