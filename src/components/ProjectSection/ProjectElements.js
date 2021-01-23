@@ -19,7 +19,7 @@ export const TopWrapper = styled.div`
 export const TextWrapper = styled.div`
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2rem;
+  margin-top: 5rem;
   margin-bottom: auto;
   max-width: 700px;
   padding: 24px 32px;
@@ -75,7 +75,7 @@ export const CardWrapper = styled.div`
   box-sizing: border-box;
   align-items: center;
   justify-items: center;
-  margin-top: -14rem;
+  margin-top: -11rem;
   grid-gap: 1rem;
   padding: 16px;
 
