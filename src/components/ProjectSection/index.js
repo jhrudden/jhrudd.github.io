@@ -11,7 +11,13 @@ import {
   CalloutTextWrapper,
   CalloutText,
 } from "./ProjectElements";
-import { ProjectCardOne } from "./ProjectCard/Data";
+import {
+  RecipeHingeCard,
+  MazeVisualizerCard,
+  PortfolioCard,
+  ExcellenceAnimatorCard,
+  PyramidSolitaireCard,
+} from "./ProjectCard/Data";
 import { VscGithub } from "react-icons/vsc";
 import ProjectCard from "./ProjectCard";
 
@@ -30,9 +36,11 @@ const Project = () => {
       </TopWrapper>
       <GridPadding>
         <CardWrapper>
-          <ProjectCard {...ProjectCardOne} />
-          <ProjectCard {...ProjectCardOne} />
-          <ProjectCard {...ProjectCardOne} />
+          <ProjectCard {...RecipeHingeCard} />
+          <ProjectCard {...PortfolioCard} />
+          <ProjectCard {...MazeVisualizerCard} />
+          <ProjectCard {...ExcellenceAnimatorCard} />
+          <ProjectCard {...PyramidSolitaireCard} />
         </CardWrapper>
       </GridPadding>
       <CalloutWrapper href="https://github.com/jhrudden">

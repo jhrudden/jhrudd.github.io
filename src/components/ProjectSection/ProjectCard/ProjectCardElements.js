@@ -19,11 +19,23 @@ export const ProjectContentWrapper = styled.div`
   align-items: center;
 `;
 
-export const CardH1 = styled.h1`
-  max-width: 100%;
+export const Header = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.5rem;
+  margin: 0.75rem;
+`;
+
+export const ProjectIcon = styled.div`
+  font-size: inherit;
+  margin-right: 1rem;
+`;
+
+export const CardH1 = styled.div`
+  font-size: inherit;
   color: #000;
-  text-align: center;
   font-weight: bold;
 `;
 

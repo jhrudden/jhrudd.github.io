@@ -13,7 +13,7 @@ import {
 import { VscGithub } from "react-icons/vsc";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
-import Background from "../../assets/images/background.jpg";
+import Background from "../../images/background.jpg";
 
 const HeroSection = () => {
   return (
