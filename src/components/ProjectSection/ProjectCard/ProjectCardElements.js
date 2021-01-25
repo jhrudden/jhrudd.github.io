@@ -9,6 +9,11 @@ export const Card = styled.div`
   border-radius: 12px;
   min-height: 250px;
   box-shadow: 0 10px 10px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+
+  &:hover {
+    scale: 1.05;
+    transition: all 0.1s ease-in-out;
+  }
 `;
 
 export const ProjectContentWrapper = styled.div`

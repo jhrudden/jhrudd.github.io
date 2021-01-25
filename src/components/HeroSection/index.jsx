@@ -25,7 +25,7 @@ const HeroSection = () => {
         <HeroHeader>John Henry Rudden</HeroHeader>
         <HeroP>
           {
-            "College student learning software development and doing personal projects along the way"
+            "College student studying software development and learning through projects along the way"
           }
         </HeroP>
         <IconRow>

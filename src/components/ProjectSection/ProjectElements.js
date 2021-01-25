@@ -5,13 +5,18 @@ export const ProjectContainer = styled.div`
   flex-direction: column;
   align-items: center;
   background: #fff 50%;
+
+  @media screen and (max-width: 500px) {
+    padding: 24px 0px;
+  }
 `;
 
 export const TopWrapper = styled.div`
   height: 450px;
-  width: 100%;
+  width: 98%;
   display: block;
   background-color: #003644;
+  border-radius: 24px;
   align-items: center;
 `;
 
@@ -64,6 +69,7 @@ export const GridPadding = styled.div`
   padding: 0 24px;
   align-items: center;
   justify-content: center;
+  margin-top: -9rem;
 `;
 
 export const CardWrapper = styled.div`
@@ -74,7 +80,7 @@ export const CardWrapper = styled.div`
   box-sizing: border-box;
   align-items: center;
   justify-items: center;
-  margin-top: -11rem;
+
   grid-gap: 1rem;
   padding: 16px;
 
