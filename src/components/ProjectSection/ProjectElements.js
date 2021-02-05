@@ -15,7 +15,7 @@ export const TopWrapper = styled.div`
   height: 450px;
   width: 98%;
   display: block;
-  background-color: #003644;
+  background-color: #1a4341;
   border-radius: 24px;
   align-items: center;
 `;
