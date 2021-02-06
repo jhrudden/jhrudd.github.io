@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Home2Section from "../Hero2Section";
+import Home2Section from "../HeroSection";
 import Navbar from "../Navbar";
 import Project from "../ProjectSection";
 import Sidebar from "../Sidebar";

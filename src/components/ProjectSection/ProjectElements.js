@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const ProjectContainer = styled.div`
   display: flex;
+  width: 100%;
+  height: 100%;
   flex-direction: column;
   align-items: center;
   background: #fff 50%;
@@ -94,21 +96,21 @@ export const CardWrapper = styled.div`
 
 export const CalloutWrapper = styled.a`
   margin-top: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 10rem;
   height: 60px;
   width: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #003644;
+  color: #1a4341;
   background-color: #fff;
   border-radius: 50px;
-  border: 2px solid #003644;
+  border: 2px solid #1a4341;
   cursor: pointer;
   text-decoration: none;
 
   &:hover {
-    background-color: #003644;
+    background-color: #1a4341;
     color: #fff;
   }
 `;
