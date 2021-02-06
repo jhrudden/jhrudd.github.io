@@ -23,7 +23,7 @@ const Home2Section = () => {
         <Paragraph>
           I am an Austin, Texas native pursuing a Computer Science degree at
           Northeastern University in Boston, Massachusetts. I am a side project
-          enthusiast and was last found working on ...
+          enthusiast and you can see some of my most recent below.
         </Paragraph>
         <IconRow>
           <SocialLink href="https://github.com/jhrudden">

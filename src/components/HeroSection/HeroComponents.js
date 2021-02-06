@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HomeWrap = styled.div`
   display: flex;
-  height: 800px;
+  height: 100vh;
   width: 100%;
   justify-content: center;
   align-items: center;
