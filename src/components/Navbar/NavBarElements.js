@@ -30,7 +30,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled.div`
-  color: ${({ scrollNav }) => (scrollNav ? "#000" : "#fff")};
+  color: ${({ scrollNav }) => (scrollNav ? "#000" : "#1A4341")};
   transition: all 0.2s ease-in-out;
   justify-self: flex-start;
   cursor: pointer;
@@ -46,7 +46,7 @@ export const MobileIcon = styled.div`
   display: none;
 
   @media screen and (max-width: 768px) {
-    color: ${({ scrollNav }) => (scrollNav ? "#000" : "#fff")};
+    color: ${({ scrollNav }) => (scrollNav ? "#000" : "#1A4341")};
 
     display: block;
     position: absolute;
@@ -74,7 +74,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(Link)`
-  color: ${({ scrollNav }) => (scrollNav ? "#000" : "#fff")};
+  color: ${({ scrollNav }) => (scrollNav ? "#000" : "#1A4341")};
   transition: all 0.2s ease-in-out;
   display: flex;
   align-items: center;
