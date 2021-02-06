@@ -2,7 +2,9 @@ import styled from "styled-components";
 import { Link } from "react-scroll";
 
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) => (scrollNav ? "#fff" : "transparent")};
+  background: #fff;
+  box-shadow: ${({ scrollNav }) =>
+    scrollNav ? "0 15px 15px 0 rgba(0,0,0,0.2)" : "transparent"};
   transition: all 0.3s ease-in-out;
   height: 80px;
   margin-top: -80px;
@@ -11,6 +13,7 @@ export const Nav = styled.nav`
   align-items: center;
   font-size: 1rem;
   position: sticky;
+  border-radius: 0 0 15px 15px;
   top: 0;
   z-index: 10;
 
@@ -78,6 +81,8 @@ export const NavLinks = styled(Link)`
   transition: all 0.2s ease-in-out;
   display: flex;
   align-items: center;
+  font-weight: 800;
+  font-size: 1.25em;
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
@@ -85,5 +90,10 @@ export const NavLinks = styled(Link)`
 
   &.active {
     border-bottom: 3px solid #fff;
+    border-radius: 0 0 10px 10px;
+  }
+
+  &:hover {
+    color: #2a6965;
   }
 `;
