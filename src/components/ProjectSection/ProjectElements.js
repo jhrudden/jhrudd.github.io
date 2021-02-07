@@ -79,8 +79,7 @@ export const CardWrapper = styled.div`
   max-width: 1200px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-rows: minmax(300px, auto) 100%;
-  row-gap: 5%;
+  grid-auto-rows: minmax(300px, auto);
   box-sizing: border-box;
   align-items: center;
   justify-items: center;
@@ -93,7 +92,6 @@ export const CardWrapper = styled.div`
   }
   @media screen and (max-width: 600px) {
     grid-template-columns: 1fr;
-    row-gap: 2.5%;
   }
 `;
 
@@ -119,7 +117,6 @@ export const CalloutWrapper = styled.a`
 `;
 
 export const CalloutTextWrapper = styled.div`
-  position: relative;
   display: flex;
   width: 100%;
   align-items: center;
