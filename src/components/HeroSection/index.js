@@ -10,7 +10,6 @@ import {
   SocialLink,
 } from "./HeroComponents";
 import { VscGithub } from "react-icons/vsc";
-import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 
 const Home2Section = () => {
@@ -31,9 +30,6 @@ const Home2Section = () => {
           </SocialLink>
           <SocialLink href="https://www.linkedin.com/in/johnhenryrudden/">
             <FaLinkedin />
-          </SocialLink>
-          <SocialLink href="mailto:johnhenryrudden@gmail.com">
-            <MdEmail />
           </SocialLink>
         </IconRow>
       </ContentWrap>

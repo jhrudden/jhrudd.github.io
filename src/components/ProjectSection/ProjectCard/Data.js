@@ -35,7 +35,7 @@ export const ExcellenceAnimatorCard = {
   projectTitle: "Excellence Animator",
   projectDescription:
     "Java and Java Swing application for rendering user made animations.",
-  link: "mailto:johnhenryrudden@gmail.com",
+  link: "https://www.linkedin.com/in/johnhenryrudden/",
   linkText: "Request viewing",
   pageIcon: <FaPlayCircle />,
 };
@@ -44,7 +44,7 @@ export const PyramidSolitaireCard = {
   projectTitle: "Pyramid Solitaire",
   projectDescription:
     "Remake of classic board game Pyramid Solitaire. Made in Java using Model View Controller design pattern.",
-  link: "mailto:johnhenryrudden@gmail.com",
+  link: "https://www.linkedin.com/in/johnhenryrudden/",
   linkText: "Request viewing",
   pageIcon: <GiCardDraw />,
 };
