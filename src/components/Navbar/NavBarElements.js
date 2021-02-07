@@ -7,6 +7,7 @@ export const Nav = styled.nav`
     scrollNav ? "0 15px 15px 0 rgba(0,0,0,0.2)" : "transparent"};
   transition: all 0.3s ease-in-out;
   height: 80px;
+  width: 100%;
   margin-top: -80px;
   display: flex;
   justify-content: center;

@@ -5,6 +5,7 @@ export const ProjectContainer = styled.div`
   width: 100%;
   height: 100%;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   background: #fff 50%;
 
@@ -83,7 +84,7 @@ export const CardWrapper = styled.div`
   align-items: center;
   justify-items: center;
 
-  grid-gap: 1rem;
+  column-gap: 1rem;
   padding: 16px;
 
   @media screen and (max-width: 900px) {
@@ -116,6 +117,7 @@ export const CalloutWrapper = styled.a`
 `;
 
 export const CalloutTextWrapper = styled.div`
+  position: relative;
   display: flex;
   width: 100%;
   align-items: center;
