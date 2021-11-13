@@ -17,6 +17,7 @@ import {
   PortfolioCard,
   ExcellenceAnimatorCard,
   PyramidSolitaireCard,
+  FakeDiscordCard,
 } from "./ProjectCard/Data";
 import { VscGithub } from "react-icons/vsc";
 import ProjectCard from "./ProjectCard";
@@ -36,6 +37,7 @@ const Project = () => {
       </TopWrapper>
       <GridPadding>
         <CardWrapper>
+          <ProjectCard {...FakeDiscordCard} />
           <ProjectCard {...RecipeHingeCard} />
           <ProjectCard {...PortfolioCard} />
           <ProjectCard {...MazeVisualizerCard} />

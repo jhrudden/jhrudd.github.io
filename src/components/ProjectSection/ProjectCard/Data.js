@@ -4,6 +4,15 @@ import { CgWebsite } from "react-icons/cg";
 import { FaPlayCircle } from "react-icons/fa";
 import { GiCardDraw } from "react-icons/gi";
 
+export const FakeDiscordCard = {
+  projectTitle: "Fake Discord",
+  projectDescription:
+    "React and Graphql application mirroring many of the popular functionalities of Discord",
+  link: "https://github.com/jhrudden/fake-discord",
+  linkText: "Check out the code",
+  pageIcon: <CgWebsite />,
+};
+
 export const RecipeHingeCard = {
   projectTitle: "Recipe Hinge",
   projectDescription:
